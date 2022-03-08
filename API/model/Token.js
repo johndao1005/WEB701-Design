@@ -2,7 +2,7 @@ const {Schema,model} = require("mongoose");
 
 const tokenSchema = new Schema({
     expiredDate: {
-        type: DateTime,
+        type: Date,
         required: true,
     },
     isClaimed: {

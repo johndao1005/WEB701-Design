@@ -1,0 +1,182 @@
+{
+	"info": {
+		"_postman_id": "00f4a814-1d93-4e04-a0e6-9be5f017ab04",
+		"name": "WEB701",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "register user",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/register",
+					"host": [
+						"http://localhost:3000/register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "auth",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/login",
+					"host": [
+						"http://localhost:3000/login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update user profile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/update/09",
+					"host": [
+						"http://localhost:3000/update"
+					],
+					"path": [
+						"09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pickup",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/complete",
+					"host": [
+						"http://localhost:3000/complete"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delivery",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/delivery",
+					"host": [
+						"http://localhost:3000/delivery"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login token",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/token",
+					"host": [
+						"http://localhost:3000/token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mark complete",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/complete",
+					"host": [
+						"http://localhost:3000/complete"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
