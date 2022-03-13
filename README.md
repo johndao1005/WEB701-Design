@@ -5,7 +5,8 @@
 Please navigate to the `API` folder follow the instructions below :
 
 - run `npm install`
-- create a .env file with port and Mongo URI details. the default port is provided as 3000 but for security purposes, please create ur own URI for MongoDB
+- create a .env file with port and Mongo URI details.
+Note : The default port is provided as 3000 but for security purposes, please create ur own URI for MongoDB or contact the repo owner for the mongo uri
 -  run `npm run start` 
 
 ## How to check the API
