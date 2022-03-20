@@ -12,3 +12,5 @@ Note : The default port is provided as 3000. For security purposes, please creat
 ## How to check the API
 
 A JSON file is already provided to reduce the time to recreate all the APIs. In order to use the premake API call simply import the file into Postman.
+
+![image-20220321094055561](C:\Users\John-Dao\workspace\WEB701-Design\src\image-20220321094055561.png)
